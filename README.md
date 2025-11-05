@@ -18,6 +18,8 @@ All-in-one, single-binary SaaS starter kit that combines a PocketBase backend wi
 - [OAuth2 Providers](#oauth2-providers)
 - [Building for Production](#building-for-production)
 - [Deploying the Binary](#deploying-the-binary)
+  - [Deploying with Coolify](#deploying-with-coolify)
+  - [Deploying Pocketbase on DigitalOcean](#deploying-pocketbase-on-digitalocean)
 - [Useful Commands](#useful-commands)
 - [Contributing & Support](#contributing--support)
 
@@ -287,6 +289,45 @@ Deploy Pocketvue just like any PocketBase application:
    sudo systemctl enable pocketvue
    sudo systemctl start pocketvue
    ```
+
+### Deploying with Coolify
+
+[Coolify](https://coolify.io/) is an open-source platform for deploying applications. Pocketvue includes Docker support for easy deployment.
+
+#### Deployment Steps
+
+1. **Create New Application** in Coolify:
+   - Choose "Public Repository"
+   - Repository URL: `https://github.com/fayazara/pocketvue`
+   - Build Pack: `Dockerfile`
+   - Port Exposes: `8090`
+
+2. **Set Environment Variables**:
+   ```bash
+   FRONTEND_URL=https://your-domain.com
+   POLAR_ENVIRONMENT=production
+   POLAR_ACCESS_TOKEN=your_polar_access_token
+   POLAR_WEBHOOK_SECRET=your_polar_webhook_secret
+   ```
+
+3. **Configure Persistent Storage**:
+   - Add volume: Mount `/app/pb_data` (stores database and uploads)
+
+4. **Set Domain** and click **Deploy** (~3-5 minutes)
+
+#### Post-Deployment
+
+1. Visit `https://your-domain.com/_/` and create admin account
+2. Configure Application URL in Settings
+3. Set up SMTP in Mail settings
+4. (Optional) Configure OAuth providers with redirect URL: `https://your-domain.com/api/oauth2-redirect`
+5. Add Polar webhook: `https://your-domain.com/api/polar-webhook`
+
+#### Troubleshooting
+
+- Ensure Port Exposes is `8090` and volume is mounted at `/app/pb_data`
+- Verify `FRONTEND_URL` matches your domain
+- Check build logs in Coolify for errors
 
 ### Deploying Pocketbase on DigitalOcean
 

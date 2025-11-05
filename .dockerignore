@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+
+# Build artifacts
+backend/pocketvue
+backend/ui/dist/
+builds/
+.builds/
+
+# Data directories
+backend/pb_data/
+pb_data/
+
+# Git
+.git/
+.github/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+!README.md
+
+# Build scripts (not needed in container)
+build.sh
+.goreleaser.yaml
+
+# Lock files - we copy specific ones in Dockerfile
+# pnpm-lock.yaml is copied explicitly
